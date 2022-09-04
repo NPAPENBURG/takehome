@@ -1,0 +1,6 @@
+Things I would change or add:
+1. Another database table that would save all the data from each time the script was ran
+
+2. Add dates to the portfilo. There are transactions happening. Adding dates would allow for a slightly more complex SQL query that would give more percise data back when running the script. Example if I have 5000 Microsoft stocks I bought and kept for x days and then sold 1000 of them. If I queried for the dates when I still had 5000. I would have different data then dates after I sold the 1000.
+
+3. Maybe add a few more print statements so a user could see what is going on in the console.
