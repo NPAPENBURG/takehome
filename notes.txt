@@ -5,4 +5,4 @@ Things I would change or add:
 
 3. Maybe add a few more print statements so a user could see what is going on in the console.
 
-4. When ever someone submits a date that the stocks were closed it will still create a csv. So to make it so makes a csv only when we have full information I would create a virable called cache as a dict. And each stock we went through that had full information I would save it into that dict to then be ran into the CSV. IF nothing was in the dict. We don't run the CSV
+4. When ever someone submits a date that the stocks were closed it will still create a csv. So to make it so makes a csv only when we have full information I would create a virable called cache as a dict. And each stock we went through that had full information I would save it into that dict to then be ran into the CSV. IF nothing was in the dict. We don't run the CSV. OR I could remove each sublist of the stocks list if it hits except and if the list is len 0 again do not run the csv/
