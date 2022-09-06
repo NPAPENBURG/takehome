@@ -4,3 +4,5 @@ Things I would change or add:
 2. Add dates to the portfilo. There are transactions happening. Adding dates would allow for a slightly more complex SQL query that would give more percise data back when running the script. Example if I have 5000 Microsoft stocks I bought and kept for x days and then sold 1000 of them. If I queried for the dates when I still had 5000. I would have different data then dates after I sold the 1000.
 
 3. Maybe add a few more print statements so a user could see what is going on in the console.
+
+4. When ever someone submits a date that the stocks were closed it will still create a csv. So to make it so makes a csv only when we have full information I would create a virable called cache as a dict. And each stock we went through that had full information I would save it into that dict to then be ran into the CSV. IF nothing was in the dict. We don't run the CSV
